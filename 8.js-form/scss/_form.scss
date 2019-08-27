@@ -1,0 +1,34 @@
+header, .form {
+    display: flex;
+    justify-content: center;
+}
+
+.form-item {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3px;
+
+    input {
+        width: 300px;
+    }
+}
+
+.form-submit {
+    display: flex;
+    justify-content: center;
+    input {
+        width: 150px;
+    }
+}
+
+.error {
+    margin-bottom: 5px;
+}
+
+.valid {
+    display: none;
+}
+
+.invalid {
+    display: block;
+}

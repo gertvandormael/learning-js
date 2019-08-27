@@ -1,0 +1,64 @@
+body {
+    font-family: $main-font;
+    background-color: $tea-green
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    color: $dark-purple;
+    height: 100px;
+}
+
+.quote-button {
+    display: flex;
+    justify-content: center;
+
+    button {
+        font-size: 1.25rem;
+        height: 50px;
+        width: 200px;
+        background-color: $dollar-green;
+        color: $dark-purple;
+        border-radius: 20px;
+        border: 2px solid $dark-purple;
+        margin-bottom: 15px;
+        &:hover {
+            background-color: $dark-purple;
+            color: $dollar-green;
+            border: 2px solid $dollar-green;
+        }
+    }
+}
+
+.details {
+    text-align: center;
+    margin: 0px 20px 0px 20px;
+    h2 {
+        font-family: $quote-font;
+    }
+    
+    h3 {
+        color: $dark-purple;
+        font-size: 1.5rem;
+    }
+
+    a {
+        color: $dollar-green;
+    }
+}
+
+.picture {
+    display: flex;
+    justify-content: center;
+    border: 2px solid $tea-green;
+    margin-top: 25px;
+
+    img {
+        max-height: 500px;
+        max-width: 300px;
+        border-radius: 25px;
+    }
+}

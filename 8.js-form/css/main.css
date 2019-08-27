@@ -1,0 +1,41 @@
+header, .form {
+  display: flex;
+  justify-content: center;
+}
+
+.form-item {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 3px;
+}
+.form-item input {
+  width: 300px;
+}
+
+.form-submit {
+  display: flex;
+  justify-content: center;
+}
+.form-submit input {
+  width: 150px;
+}
+
+.error {
+  margin-bottom: 5px;
+}
+
+.valid {
+  display: none;
+}
+
+.invalid {
+  display: block;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+/*# sourceMappingURL=main.css.map */

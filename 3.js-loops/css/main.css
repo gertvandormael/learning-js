@@ -1,0 +1,59 @@
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+button {
+    margin: 20px
+}
+
+#field {
+    width: 420px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.cell {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.bgblack {
+    background-color: black;
+    color: white;
+}
+
+.bgred {
+    background-color: red;
+}
+
+.bggreen {
+    background-color: white;
+}
+
+.bgblue {
+    background-color: blue;
+}
+
+.bgyellow {
+    background-color: yellow;
+}
+
+.bgpurple {
+    background-color: purple;
+}
+
+.bgorange {
+    background-color: orange;
+}

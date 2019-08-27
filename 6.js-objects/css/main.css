@@ -1,0 +1,34 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+h1, .family, .card {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    height: 50px;
+    width: 100px;
+    background-color: white;
+    border: 2px black solid;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+button:hover {
+    color: blue;
+    border: 2px blue solid;
+}
+
+img {
+    max-height: 300px;
+    max-width: 300px;
+}
+
+ul {
+    align-items: flex-start;
+    list-style-type: none;
+    max-width: 200px;
+}
